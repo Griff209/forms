@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Register Account</legend>
+        <p>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </p>
+        <p>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+        </p>
+        <p>
+          <label for="github-username">Github Username</label>
+          <input type="text" name="github-username" id="github-username">
+        </p>
+        <fieldset>
+          <legend>Select a service level</legend>
+          <input type="radio" name="service-level" id="enterprise">
+          <label for="enterprise">Enterprise</label>
+          <input type="radio" name="service-level" id="pro">
+          <label for="pro">Pro</label>
+          <input type="radio" name="service-level" id="free">
+          <label for="free">Free</label>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember Me</label>
+      </fieldset>
+    </form>
+  </body>
+</html>
